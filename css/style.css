@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+.header_container {
+    height: 17vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid coral;
+}
+
+.header_container img {
+    height: 15vh;
+}
+
+.header_container h1 {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Lobster', cursive;
+}
+
+.items {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.items:hover {
+    color: coral;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    padding: 1em;
+}
+
+.hero {
+    margin: 0;
+    height: 80vh;
+    border-bottom: 1px solid coral;
+}
+
+.navigation {
+    margin-top: 0;
+    height: 80vh;
+    width: 13vw;
+    background-color: #6495ED;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.list_navigation {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.items_navigation {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.items_navigation:hover {
+    color: coral;
+}
+
+.container1 {
+    background-image: url('../img/background.jpeg');
+    height: 80vh;
+}
+
+.container1 h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.paper_layout {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img_ht {
+    height: 40vh;
+    width: 25vw;
+    box-shadow: 1px black;
+}
+
+.video_emd {
+    margin-top: 2.2em;
+    margin-left: 1em
+}
+
+.footer_section {
+    height: 25vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 3px solid grey;
+}
+
+.footer_section p {
+    font-size: 1.5em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #3B5998;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
